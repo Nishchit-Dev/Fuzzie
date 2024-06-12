@@ -1,3 +1,4 @@
+import { MenuIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -40,7 +41,7 @@ const Navbar = async (props: Props) => {
           </li>
         </ul>
       </nav>
-      <aside className="flex items-cener gap-4">
+      <aside className="flex items-center gap-4 ">
       <Link
           href="/dashboard"
           className="relative inline-flex h-10 overflow-hidden rounded-full p-[2px] focus:outline-none focus:ring-2"
@@ -50,6 +51,7 @@ const Navbar = async (props: Props) => {
             {true ? 'Dashboard' : 'Get Started'}
           </span>
         </Link>
+        <MenuIcon className="md:hidden"/>
       </aside> 
     </header>
   );
