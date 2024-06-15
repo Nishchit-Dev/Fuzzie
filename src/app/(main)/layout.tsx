@@ -1,12 +1,14 @@
+import SidebarMenuOptions from "@/components/sidebar";
 import React from "react";
+type Props = { children: React.ReactNode };
 
-type Props = { childern: React.ReactNode };
-
-const Layout = ({childern}: Props) => {
+const Layout = (props: Props) => {
   return (
     <div className="flex overflow-hidden h-screen">
-      <div className="w-full">{childern}</div>
+      <SidebarMenuOptions />
+      <div className="w-full">{props.children}</div>
     </div>
   );
 };
+
 export default Layout;
