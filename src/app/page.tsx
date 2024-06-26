@@ -59,7 +59,7 @@ export default function Home() {
                 translateZ="50"
               >
                 Hobby
-                <h2 className="text-6xl">$0</h2>
+                <h2 className="text-5xl">$0</h2>
               </CardItem>
               <CardItem
                 translateZ={"60"}
@@ -107,7 +107,7 @@ export default function Home() {
                 translateZ={50}
               >
                 Pro plan
-                <h2 className="text-6xl">$49</h2>
+                <h2 className="text-5xl">$49</h2>
               </CardItem>
               <CardItem className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300" translateZ={60}>
                 Get glimpse of what our software is capable of just a heads up{" "}
@@ -141,7 +141,7 @@ export default function Home() {
                 translateZ="50"
               >
                 Unlimeted Plan
-                <h2 className="text-6xl">$99</h2>
+                <h2 className="text-5xl">$99</h2>
               </CardItem>
               <CardItem
                 translateZ={"60"}
